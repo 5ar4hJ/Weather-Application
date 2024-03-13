@@ -1,6 +1,8 @@
 body {
   background-color: aqua;
+  font-family: "Playfair Display", serif;
 }
+
 .App-content {
   background-color: aliceblue;
   border-radius: 15px;

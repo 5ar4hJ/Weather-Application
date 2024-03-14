@@ -3,7 +3,7 @@ body {
   font-family: "Playfair Display", serif;
 }
 a {
-  color: rgba(138, 43, 226, 0.7);
+  color: rgba(41, 27, 90, 0.9);
 }
 .App-content {
   background-color: aliceblue;
@@ -25,7 +25,7 @@ header {
   width: 70%;
 }
 .search-button {
-  background-color: rgba(138, 43, 226, 0.7);
+  background-color: rgba(41, 27, 90, 0.9);
   border: none;
   border-radius: 6px;
   color: azure;

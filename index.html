@@ -6,30 +6,33 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+<script src="https://unpkg.com/axios@1.6.7/dist/axios.min.js"></script>  
+<link rel="stylesheet" href="style.css">
     <title>Weather Forecast</title>
   </head>
   <body>
-    <div class="App-content"><header>
-      <form class="search-form">
-        <input type="text" placeholder="Enter a city..." required class="search-input" />
+    <div class="App-content">
+     <header>
+      <form class="search-form" id="search-form">
+        <input type="text" placeholder="Enter a city..." required id="search-input" class="search-input" />
         <input type="submit" value="Search" class="search-button"/>
       </form>
-    </header>
+     </header>
     <section>
-     <span class="app-data">
-      <h1 class="current-city">Calgary</h1>
+     <div class="app-data">
+      <h1 class="current-city" id="displayed-city">Calgary</h1>
       <p class="weather-details">
         <div> Wednesday 14:22, scattered clouds
         <br />
-        Humidity: <span class="dets">67%</span>, Wind: <span class="dets">80km/h</span> </div>
+        Humidity: <span class="dets">67%</span>, Wind: <span class="dets">80km/h</span> 
+       </div>
       </p>
       <div class="current-temperature"> 
         <div class="icon">🌧️</div> 
         <div class="temp-value"> -5</div> 
         <div class="temp-units">°C</div> 
       </div>
-     </span>
+    </div>
     </section>
     <footer>
       Project coded by
@@ -44,6 +47,6 @@
       >
      </footer>
     </div>
-    
+    <script src="script.js"></script>
   </body>
 </html>

@@ -42,6 +42,7 @@ header {
 .current-city {
   margin: 0;
   font-size: 38px;
+  line-height: 85px;
 }
 .weather-details {
   line-height: 20px;
@@ -56,18 +57,20 @@ header {
   display: flex;
 }
 .icon {
-  font-size: 44px;
-  margin-top: 49px;
+  height: 90px;
+  width: 90px;
+  margin-top: 2px;
 }
 .temp-value {
   font-size: 88px;
   font-weight: 700;
   margin-left: 1px;
+  line-height: 60px;
 }
 .temp-units {
   font-size: 30px;
   font-weight: 700;
-  margin-top: 40px;
+  margin-top: 12px;
 }
 footer {
   border-top: 1px solid rgba(102, 93, 121, 0.09);

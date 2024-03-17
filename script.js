@@ -9,6 +9,7 @@ function updateData(response) {
   let timeElement = document.querySelector("#time");
   console.log(response.data);
   let date = new Date(response.data.time * 1000);
+  let iconElement = document.querySelector("#icon");
 
   timeElement.innerHTML = formatDate(date);
   windSpeedElement.innerHTML = `${Math.round(windSpeed)}km/h`;
@@ -16,6 +17,7 @@ function updateData(response) {
   description.innerHTML = response.data.condition.description;
   cityElement.innerHTML = response.data.city;
   displayedTemp.innerHTML = Math.round(temperature);
+  iconElement.innerHTML = `<img src= "${response.data.condition.icon_url}" class="icon" />`;
 }
 
 function formatDate(date) {

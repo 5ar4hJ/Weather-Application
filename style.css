@@ -6,7 +6,7 @@ a {
   color: rgba(41, 27, 90, 0.9);
 }
 .App-content {
-  background-color: aliceblue;
+  background-color: rgba(190, 195, 199, 0.9);
   border-radius: 15px;
   box-shadow: 0 30px 50px rgba(65, 50, 100, 0.4);
   margin: 50px auto;
@@ -28,7 +28,7 @@ header {
   background-color: rgba(41, 27, 90, 0.9);
   border: none;
   border-radius: 6px;
-  color: azure;
+  color: #f0ffff;
   font-size: 16px;
   margin-left: 6px;
   padding: 20px 40px;

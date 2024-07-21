@@ -1,12 +1,12 @@
 body {
-  background-color: rgba(102, 93, 121, 0.6);
+  background-color: rgba(186, 180, 199, 0.6);
   font-family: "Arimo", sans-serif;
 }
 a {
   color: rgba(41, 27, 90, 0.9);
 }
 .App-content {
-  background-color: rgba(190, 195, 199, 0.9);
+  background-color: rgba(235, 240, 243, 0.9);
   border-radius: 15px;
   box-shadow: 0 30px 50px rgba(65, 50, 100, 0.4);
   margin: 50px auto;
